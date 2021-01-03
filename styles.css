@@ -1,0 +1,264 @@
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.containerM /*container sekcja menu*/
+{
+    /*position: fixed;*/
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightgray;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+}
+
+.container /*container sekcja przedmiotów + koszyk*/
+{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1500px) {
+    .container {
+       grid-template-columns: 60% 40%;
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+
+.containerP /*container sekcja przedmiotów*/
+{
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.containerK /*container sekcja koszyk*/
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    right: 0;
+   background-color: grey;
+       height: fit-content;
+}
+
+.boxM /*box menu*/
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+}
+
+.boxS /*box sklep*/
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    height: 400px;
+    background-color: lightgray;
+    margin: 25px;
+}
+
+.boxSo /*box sklep obrazek*/
+{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.boxS img
+{
+    height: 250px;
+    margin: 25px;
+}
+
+.boxSz1 /*box sklep zawartosc 1 - Nazwa*/
+{
+    color: white;
+    justify-content: center;
+    height: 25px;
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+}
+
+.boxSn /*box sklep nazwa*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    width: 200px;
+    background-color: black;
+}
+
+.boxSz2 /*box sklep zawartosc 2 - Cena i Dodaj*/
+{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    height: 75px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+.boxSc /*box sklep cena*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 25px;
+    width: 75px;
+    background-color: black;
+}
+
+.boxSd /*box sklep dodaj*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 25px;
+    width: 75px;
+    background-color: black;
+}
+
+.boxKW /*box koszyk - Kup i Wyczyść*/
+{
+    color: white;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+}
+
+.boxK /*box Kup*/
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.boxW /*box Wyczyść*/
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+}
+
+.boxC /*box dla Ceny koszyka*/
+{
+
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+}
+
+.boxCK /*box Cena koszyka wyświetlanie*/
+{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 70%;
+    background-color: black;
+    justify-content: center;
+}
+
+.boxZk /*box zawartosc koszyka*/
+{
+    height: 100px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProduktB1
+{
+    margin: 25px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+
+}
+.ProduktB2
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    background-color: black;
+}
+.oddzielenie
+{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 5px;
+    background-color: black;
+}
+

@@ -1,0 +1,31 @@
+Stwórz stronę HTML przedstawiającą uproszczoną wersję sklepu internetowego
+Strona powinna składać się z 3 sekcji:
+- Sekcja menu nawigacyjnego
+- Sekcja przedmiotów
+- Sekcja koszyka zakupowego
+(Rozmieszczenie sekcji na obrazie 1.png)
+
+SEKCJA MENU:
+Wewnątrz tej sekcji należy umieścić 3 linki o nazwach (Sklep, Dostawa, Rejestracja)
+Wszystkie linki niech prowadzą do tworzonej strony. (Strony głównej)
+
+SEKCJA PRZEDMIOTÓW:
+Tutaj proszę umieścić karty przedmiotów (około 10-15 kart). Na kartę przedmiotów powinno się składać:
+- zdjęcie przedmiotu (obrazy wybrane z Internetu, może być 1 obraz powielony na wszystkie karty)
+- nazwa przedmiotu
+- cena
+- przycisk dodania produktu do koszyka zakupowego
+W jednej linii powinno znaleźć się około 2-5 produktów w zależności od rozdzielczości strony. Wykorzystaj flexbox oraz właściwość flex-wrap: wrap;
+
+SEKCJA KOSZYKA ZAKUPOWEGO:
+Elementy:
+- przycisk kup wyświetlający alert strony (window.alert('')) - informujący o wykonaniu zakupów wraz z ceną koszyka, dodatkowo należy usunąć wszystkie produktu i informacje z koszyka
+- przycisk wyczyść - usuwający wszystkie produkty i informację z koszyka zakupowego
+- cena koszyka - czyli sumę cen dodanych produktów
+- listę dodanych produktów do koszyka zawierającą (nazwę przedmiotu, ceną oraz przycisk usuń - usuwający przedmiot z koszyka)
+Dodatkowo proszę ograniczyć dodawanie przedmiotów do koszyka do 8 sztuk.
+
+Rozwiązanie proszę zamieścić na własnym zdalnym repozytorium GitHub, link do repozytorium proszę przesłać w wiadomości poprzez SUSZI.
+Termin oddania zadania upływa 20 grudnia 2020 o godzinie 23:59. Do wykonania zadania proszę wykorzystać dowolne środowisko programistyczne.
+Rozwiązanie powinno składać się przynajmniej z 3 plików (*.html, *.css, *.js)
+
