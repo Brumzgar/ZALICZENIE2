@@ -196,7 +196,7 @@ const renderProductInCart = (uniqueId) => {
     var UsunProdukt = document.getElementById(deleteId);
 
     UsunProdukt.addEventListener('click', function (e) {
-        removeProduct(i);
+        removeProduct(uniqueId);
         if (e.target.className.includes('ProduktB1')) {
             cart.removeChild(container);
         }
